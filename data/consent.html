@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 8px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            text-indent: 0;
+        }
+
+
+
+        .practice-description {
+            display: flex;
+            justify-content: space-between;
+            display: -webkit-box;
+            display: -webkit-flex;
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .practice-data {
+            margin-top: 10px;
+        }
+
+        .document-title {
+            text-align: center;
+            margin-top: 1in;
+        }
+
+        .patient-data {
+            margin-top: 1in;
+        }
+
+        .container {
+            margin: 0 1in;
+        }
+
+        .point-name {
+            font-weight: bold;
+        }
+
+        .point-data {
+            margin-left: 10px;
+        }
+
+        .signature {
+            display: flex;
+            margin-top: 70px;
+            margin-right: 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+        }
+
+        .signature-patient {
+            margin-left: auto;
+        }
+
+        footer {
+            margin-top: 1in;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="practice-description">
+
+
+                <div class="header-description">
+                    Stomatology description
+                </div>
+
+            </div>
+            <ul class="practice-data">
+
+
+                <li><span class="point-name">Grad:</span><span class="point-data">
+                        21100
+                    </span>
+
+
+                    <span class="point-data">
+                        Subotica
+                    </span>
+                </li>
+
+
+            </ul>
+        </header>
+
+        <h1 class="document-title">Saglasnost</h1>
+        <section class="patient-data">
+            <ul>
+                <li><span class="point-name">Ime i prezime pacijenta:</span><span class="point-data">
+                        John Doe
+                    </span></li>
+                <li><span class="point-name">Datum rođenja:</span><span class="point-data">
+                        1.1.1970. godine
+                    </span></li>
+            </ul>
+        </section>
+        <section class="patient-text">
+            <p>Pacijent je obavešten o dijagnozi i prognozi bolesti, cilju i koristi od intervencije, mogućim
+                posledicama
+                preduzimanja
+                iste, vrstom i verovatnoćom mogućeg rizika, bolom i drugim sporednim i trajnim posledicama,
+                alternativnim metodama
+                lečenja i mogućim interakcijama lekova.</p>
+            <p>Pristajem na predloženu medicinsku meru shodno članu 28. i 32. zakona o zdravstvenoj zaštiti.</p>
+        </section>
+        <section class="signature">
+            <div class="signature-doctor">Potpis lekara __________
+            </div>
+            <div class="signature-patient">Potpis pacijenta __________
+            </div>
+        </section>
+        <footer>
+            <div class="date"><span class="point-name">Datum:</span><span class="point-data">
+                    2.9.2022. godine
+                </span></div>
+        </footer>
+    </div>
+</body>
+
+</html>

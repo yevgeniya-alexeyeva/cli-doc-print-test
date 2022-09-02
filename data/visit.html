@@ -1,0 +1,358 @@
+<html>
+
+<head>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 8px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            text-indent: 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.17em;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            display: -webkit-box;
+            display: -webkit-flex;
+        }
+
+        .header-logo {
+            margin-right: auto;
+        }
+
+        .report-title {
+            text-align: center;
+            font-size: 2em;
+        }
+
+
+        .patient-data {
+            margin-top: 50px
+        }
+
+        .container {
+            margin: 0 1in;
+        }
+
+        .point-name {
+            font-weight: bold;
+        }
+
+        .point-data {
+            margin-left: 10px;
+        }
+
+        .signature {
+            display: flex;
+            margin-top: 70px;
+            display: -webkit-box;
+            display: -webkit-flex;
+        }
+
+        .doctor-data {
+            margin-left: auto;
+        }
+
+        .report-item-title {
+            text-align: center;
+            size: 14px;
+            font-weight: bold;
+        }
+
+        .column-wrapper {
+            display: flex;
+            display: -webkit-box;
+            display: -webkit-flex;
+            flex-direction: column;
+        }
+
+        .right-column {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+
+
+            <div class="header-description">
+                Stomatology description
+            </div>
+
+        </header>
+        <h1 class="report-title">Izveštaj lekara specijaliste</h1>
+        <section class="patient-data">
+            <ul>
+                <li><span class="point-name">Pacijent:</span><span class="point-data">
+                        John Doe
+                    </span>
+                </li>
+                <li><span class="point-name">Datum rođenja:</span><span class="point-data">
+                        1.1.1970.
+                    </span></li>
+
+                <li><span class="point-name">Adresa:</span><span class="point-data">
+                        Subotica, Glavna, 1.
+                    </span></li>
+
+            </ul>
+        </section>
+        <section class="report">
+
+            <div class="anamnesis-gynecology report-item">
+                <h3 class="report-item-secondary-title">Anamneza</h3>
+                <div class="column-wrapper">
+                    <ul class="report-item-list">
+                        <li><span class="point-name">Vaginalni porođaj:</span>
+                            <span class="point-data">
+                                1
+                            </span>
+
+                        </li>
+                        <li><span class="point-name">Spontani abortus:</span>
+                            <span class="point-data">
+                                1
+                            </span>
+
+                        </li>
+
+                    </ul>
+                    <ul class="report-item-list right-column">
+                        <li><span class="point-name">Carski rez:</span>
+                            <span class="point-data">
+                                1
+                            </span>
+
+                        </li>
+                        <li><span class="point-name">Veštački abortus:</span>
+
+                        </li>
+                    </ul>
+                </div>
+                <ul class="report-item-list">
+
+
+                    <li><span class="point-name">Poslednja
+                            menstruacija:
+                        </span>
+                        <span class="point-data">
+                            30.8.2022.
+                        </span>
+                    </li>
+
+
+                    <li><span class="point-name">Očekivan termin
+                            porođaja:</span>
+                        <span class="point-data">
+                            6.6.2023.
+                        </span>
+                    </li>
+
+
+                    <li><span class="point-name">Prethodne intervencije
+                            i operacije:</span><span class="point-data">
+                            asdf
+                        </span></li>
+
+
+                    <li><span class="point-name">Kontracepcija:</span><span class="point-data">
+                            123
+                        </span></li>
+
+                </ul>
+            </div>
+
+
+
+
+            <h2 class="report-item-title">
+                Pregledi
+            </h2>
+
+
+            <div class="examination report-item">
+                <h3 class="report-item-secondary-title">
+                    Osnovni pregled
+                </h3>
+                <ul class="report-item-list">
+
+                    <li><span class="point-name">Rezultat pregleda:</span><span class="point-data">
+                            ASDF
+                        </span></li>
+
+                </ul>
+            </div>
+
+
+            <div class="examination report-item">
+                <h3 class="report-item-secondary-title">
+                    Osnovni pregled
+                </h3>
+                <ul class="report-item-list">
+
+                    <li><span class="point-name">Rezultat pregleda:</span><span class="point-data">
+                            Sve smo pregledali. Nista nismo nasli.
+                        </span></li>
+
+                </ul>
+            </div>
+
+
+            <h3 class="report-item-secondary-title">
+                Dijagnoza
+            </h3>
+
+
+
+            <div class="diagnosis report-item">
+                <ul class="report-item-list">
+                    <li><span class="point-name">
+                            Status:</span><span class="point-data">
+                            radna
+                        </span></li>
+                    <li><span class="point-name">
+                            Kod:</span><span class="point-data">
+                            1B100
+                        </span></li>
+                    <li><span class="point-name">
+                            Latinski naziv:</span><span class="point-data">
+                            Manemanista
+                        </span></li>
+                    <li><span class="point-name">
+                            Dijagnoza:</span>
+                        <p class="point-data">
+                            A mozda i nisi
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="diagnosis report-item">
+                <ul class="report-item-list">
+                    <li><span class="point-name">
+                            Status:</span><span class="point-data">
+                            radna
+                        </span></li>
+                    <li><span class="point-name">
+                            Kod:</span><span class="point-data">
+                            1B100
+                        </span></li>
+                    <li><span class="point-name">
+                            Latinski naziv:</span><span class="point-data">
+                            Manemanista
+                        </span></li>
+                    <li><span class="point-name">
+                            Dijagnoza:</span>
+                        <p class="point-data">
+                            Zdrav si
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <h2 class="report-item-title">
+                Terapije
+            </h2>
+
+
+            <div class="treatment report-item">
+                <h3 class="report-item-secondary-title">
+                    Predlozena terapija <span>
+                        2.9.2022.
+                    </span>
+                </h3>
+                <ul class="report-item-list">
+
+                    <li><span class="point-data">
+                            Sladoled 2kg/3/7 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit perferendis
+                            vero expedita minus perspiciatis corporis aut dignissimos, numquam laborum, asperiores quas!
+                            Quis inventore nisi laboriosam pariatur dolorum sint quam accusamus ipsum autem minima!
+                            Eaque quia est, nihil error nobis deleniti enim a alias aliquid voluptates mollitia rerum?
+                            Ut, totam dignissimos natus tenetur dolorum placeat ipsum aliquam corporis vel quasi
+                            exercitationem magnam temporibus maiores nihil tempore neque incidunt ea sunt. Eos,
+                            distinctio tempora voluptate maxime nesciunt ut? Ullam, quis eligendi dolores hic fuga non
+                            reprehenderit, ea odit autem ipsum nemo modi aliquid rem necessitatibus provident
+                            consectetur corrupti. Quae id dolorem harum eligendi. Dolores, architecto. Repellendus,
+                            placeat vel. Maxime a nesciunt eum sint illum accusantium voluptates doloribus ipsam odio,
+                            laboriosam vel.
+                        </span></li>
+
+
+
+
+                </ul>
+            </div>
+
+
+            <div class="treatment report-item">
+                <h3 class="report-item-secondary-title">
+                    Predlozena terapija <span>
+                        2.9.2022.
+                    </span>
+                </h3>
+                <ul class="report-item-list">
+
+                    <li><span class="point-data">
+                            Sladoled 3kg/3/7 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit perferendis
+                            vero expedita minus perspiciatis corporis aut dignissimos, numquam laborum, asperiores quas!
+                            Quis inventore nisi laboriosam pariatur dolorum sint quam accusamus ipsum autem minima!
+                            Eaque quia est, nihil error nobis deleniti enim a alias aliquid voluptates mollitia rerum?
+                            Ut, totam dignissimos natus tenetur dolorum placeat ipsum aliquam corporis .
+                        </span></li>
+
+
+
+
+                </ul>
+            </div>
+
+        </section>
+        <section class="signature">
+            <div class="date-container">
+                <div class="report-place">
+                    Subotica
+                </div>
+                <div class="report-date">
+                    10.8.2022.<span>godine</span>
+                </div>
+            </div>
+            <div class="doctor-data">
+                <div class="doctor-name"> dr
+                    Milos Mihic
+                </div>
+
+                <div class="doctor-title">
+                    Bivsi glavni lekar
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
